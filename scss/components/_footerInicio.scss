@@ -1,0 +1,65 @@
+
+.footerInicio{
+   
+ 
+ width: 100%;
+
+
+
+    background-color: rgb(16, 169, 240);
+              
+        display: grid;
+        grid-template-columns:auto 30% auto;
+      
+        
+       
+    }
+
+ /*foooter Contacto*/
+
+ 
+ .footerContacto{
+    width: 100%;
+    background-color:#ABA34B;       
+    display: grid;
+    grid-template-columns:auto 30% auto;
+ }
+ @media screen and (max-width:320){
+    
+       .footerContacto{
+          height: 200px;
+          display: flex ;
+       }
+    
+    
+ }
+   
+
+/*Nuestro Locales*/
+.footerNuestro{
+   color: gold;
+   width: 100%;
+   background-color: green;
+   display: grid;
+   grid-template-columns:auto 30% auto;
+  }
+          
+         
+      
+/*Nosotros*/
+.footerNosotros{
+   color: gold;
+   width: 100%;
+   background-color: green;
+   display: grid;
+   grid-template-columns:auto 30% auto ;
+  }
+    
+/*Productos*/
+  .footerProductos{
+   color: gold;
+   width: 100%;
+   background-color: rgb(10, 10, 10);
+   display: grid;
+   grid-template-columns:auto 30% auto;
+  }

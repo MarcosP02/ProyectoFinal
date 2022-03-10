@@ -1,0 +1,77 @@
+.headerInicio{
+    @include colores(rgb(73, 71, 71),0 );
+    width: 100%;
+} 
+.logoInicio{
+    background-color: rgb(16, 169, 240);
+}
+ 
+
+.enlace{
+   
+    animation-name: enlace;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
+@keyframes enlace {
+from{
+    transform: rotateZ(0);
+}    
+to{
+    transform: rotateZ(360deg);
+}
+
+}
+
+
+
+
+/*Contactos*/
+.headerContacto{
+    background-color: rgb(226, 226, 17);
+}
+
+
+.h1Contacto{
+    color: burlywood;
+    text-align: center;
+    @extend %botones4;
+    @extend %botones2;
+    height: 100px;
+}
+
+
+
+
+
+
+/*Nuestro Locales*/
+
+.headerNuestros{
+    
+    @include colores(green,lightgrey);
+}
+
+.logoNuestro{
+    background-color: green;
+}
+
+
+
+/*Productos*/
+.headerProductos{
+ 
+    @include rellenos(30px, 20px auto);
+    @include colores (white,black);
+     @include alinear(center)
+}
+
+.h1Productos{
+    font-size: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+@import "base/condiconales";
+@import "base/extends";
+@import "base/listas";
+@import "base/maps";
+@import "base/mixin";
+@import "components/footerInicio";
+@import "components/headerInicio";
+@import "components/mainInicio";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 100%;
+    
+}
+.p{
+  
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    margin: 20px ;
+}
+
+.span{
+    color: red;
+    font-size: 30px;
+}
+
